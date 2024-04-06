@@ -7,8 +7,8 @@ let firstRandom = Math.random() * 6 + 1;
 firstRandom = Math.floor(firstRandom);
 let lastRandom = Math.random() * 6 + 1;
 lastRandom = Math.floor(lastRandom);
-firstImage.src = `./images/dice${firstRandom}.png`;
-lastImage.src = `./images/dice${lastRandom}.png`;
+firstImage.src = `./dice${firstRandom}.png`;
+lastImage.src = `./dice${lastRandom}.png`;
 if (lastRandom > firstRandom) {
   document.querySelector("h1").textContent = secondWin;
   console.log(secondWin);
